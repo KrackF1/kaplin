@@ -19,7 +19,6 @@ def file():
             directory = saveas[:directory.rfind('\\')]
         os.system(f"mkdir {directory}")
         os.system(f"curl -o {saveas} {repo}{file}")
-        print(option, file, saveas, directory)
 
 
 if __name__ == '__main__':
